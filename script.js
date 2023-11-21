@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //-------------- função que limpa todos os valores na tela -----------------//
   limpar.addEventListener('click', function () {
+    despesas.clear();
     total.innerHTML = 0;
     valorMaior.innerHTML = 0;
     mediaId.innerHTML = 0;
